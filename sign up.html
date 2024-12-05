@@ -4,7 +4,12 @@
     <title>NEED FOR CLEAN</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="margin: 20px;">
+    <body style="margin: 20px;">
+        <style>
+       body {
+           background-color: antiquewhite;
+       }
+      </style>
 
   <!--Navigation bar starts here-->
     <div>
@@ -32,16 +37,24 @@
           <form style="margin: 25px; margin-top: 25px;margin-bottom: 30px;">
 
              <label style="font-family: calibri;">Username</label>
-             <input type="text" name="Username" style="width: 150px;float: right;" >
+             <input type="text" name="Username" style="width: 150px;float: right;" placeholder="Enter Your Userame" required>
+
+             <br><br>
+             
+             <label style="font-family: calibri;">Email</label>
+             <input type="email" name="email"  style="width: 150px;float: right;" placeholder="Enter Your Email" required>
             
              <br><br>
-
              <label style="font-family: calibri;">password</label>
-             <input type="password" name="password" style="width: 150px;float: right;" >
+             <input type="password" name="password" style="width: 150px;float: right;" placeholder="Enter Your Password" required>
 
              <br><br>
              <label style="font-family: calibri;"> confirm password</label>
-             <input type="password" name="password" style="width: 150px;float: right;" >
+             <input type="password" name="password" style="width: 150px;float: right;" placeholder="Enter Your Password" required>
+
+             <br><br>
+             <label style="font-family: calibri;"> </label>
+            
              
            <a href="/donations.html">
             <button style="padding: 8px;width: 100px;display: block;float: right; color: white; background-color: black; margin: 5%; font-weight: bold; border-radius: 10px;" >submit</button>
